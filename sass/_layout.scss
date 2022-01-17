@@ -1,41 +1,9 @@
+//////////////////////////////////////////
+// LAYOUT
+
 .container {
   background: $color-neutral-Light-grayish-blue;
   margin: 4rem auto;
   max-width: 119rem;
   min-height: 100vh;
-
-  .testimonial {
-    height: 100%;
-    margin-top: 15rem;
-    margin: 0 2rem;
-    padding: 3rem 1rem;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto;
-    grid-gap: 2rem;
-    padding: 2rem;
-
-    grid-template-areas:
-      'one one two three'
-      'four five five three';
-
-    @media only screen and (max-width: 900px) {
-      min-width: min-content;
-      min-height: fit-content;
-      grid-template-areas:
-        'one one two'
-        'three three three'
-        'four five five';
-    }
-
-    @media only screen and (max-width: 750px) {
-      min-width: auto;
-      grid-template-areas:
-        'one'
-        'two'
-        'four'
-        'five'
-        'three';
-    }
-  }
 }

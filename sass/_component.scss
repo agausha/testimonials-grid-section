@@ -62,4 +62,28 @@
   &__photo--border-1 {
     border: 3px solid $color-primary-Moderate-violet;
   }
+
+  &__user {
+    display: flex;
+    align-items: center;
+  }
+
+  &__user--detail {
+    margin-top: 1rem;
+  }
+
+  &__user--name-gray {
+    color: $color-primary-Very-dark-blackish-blue;
+  }
+
+  &__user--verified {
+    color: $color-neutral-Light-gray;
+    font-weight: 600;
+  }
+
+  &__user--verified-blackish {
+    color: $color-primary-Very-dark-blackish-blue;
+    font-weight: 600;
+    opacity: 0.5;
+  }
 }

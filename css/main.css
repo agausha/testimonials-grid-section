@@ -89,6 +89,34 @@ body {
   border: 3px solid #7541c8;
 }
 
+.card__user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card__user--detail {
+  margin-top: 1rem;
+}
+
+.card__user--name-gray {
+  color: #19212e;
+}
+
+.card__user--verified {
+  color: #cfcfcf;
+  font-weight: 600;
+}
+
+.card__user--verified-blackish {
+  color: #19212e;
+  font-weight: 600;
+  opacity: 0.5;
+}
+
 .container {
   background: #ecf2f8;
   margin: 4rem auto;

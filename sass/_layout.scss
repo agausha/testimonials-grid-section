@@ -16,3 +16,12 @@
     grid-gap: 2rem;
   }
 }
+
+//////////////////////////////////////////
+// MEDIA QUERIES
+
+@media only screen and (max-width: 800px) {
+  .container .testimonial {
+    margin-top: 7rem;
+  }
+}

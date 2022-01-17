@@ -81,6 +81,14 @@ body {
   margin-left: 1.5rem;
 }
 
+.card__photo--border {
+  border: 3px solid #cfcfcf;
+}
+
+.card__photo--border-1 {
+  border: 3px solid #7541c8;
+}
+
 .container {
   background: #ecf2f8;
   margin: 4rem auto;

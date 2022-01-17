@@ -101,3 +101,48 @@
     opacity: 0.9;
   }
 }
+
+//////////////////////////////////////////
+// MEDIA QUERIES
+
+@media only screen and (max-width: 1000px) {
+  .card {
+    &:nth-child(2) {
+      grid-column: 3 / -1;
+    }
+
+    &:nth-child(3) {
+      grid-column: 1 / -1;
+      grid-row: 2 / span 3;
+    }
+
+    &:nth-child(5) {
+      grid-column: 2 / -1;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .card {
+    &:nth-child(1) {
+      grid-column: 1 / -1;
+    }
+
+    &:nth-child(2) {
+      grid-column: 1 / -1;
+    }
+
+    &:nth-child(4) {
+      grid-column: 1 / -1;
+    }
+
+    &:nth-child(5) {
+      grid-column: 1 / -1;
+    }
+
+    &:nth-child(3) {
+      grid-column: 1 / -1;
+      grid-row: 5 / span 3;
+    }
+  }
+}

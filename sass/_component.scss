@@ -86,4 +86,18 @@
     font-weight: 600;
     opacity: 0.5;
   }
+
+  &__text {
+    margin: 2rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+    line-height: 1.4;
+    width: 97%;
+  }
+
+  &__text--sub {
+    margin: 0.5rem 1.5rem;
+    font-size: 1.2rem;
+    opacity: 0.9;
+  }
 }

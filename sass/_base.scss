@@ -1,0 +1,31 @@
+/////////////////////////////////////////
+//PRIMARY COLORS
+$color-primary-Moderate-violet: hsl(263, 55%, 52%);
+$color-primary-Very-dark-grayish-blue: hsl(217, 19%, 35%);
+$color-primary-Very-dark-blackish-blue: hsl(219, 29%, 14%);
+$color-primary-White: hsl(0, 0%, 100%);
+
+/////////////////////////////////////////
+//NEUTRAL COLORS
+$color-neutral-Light-gray: hsl(0, 0%, 81%);
+$color-neutral-Light-grayish-blue: hsl(210, 46%, 95%);
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  border: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; //1rem + 10px, 10px/16px = 62.5%
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+  line-height: 1.6;
+}

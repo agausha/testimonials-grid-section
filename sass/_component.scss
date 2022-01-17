@@ -1,0 +1,126 @@
+.card {
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 2.5rem 2rem 3rem -3.5rem rgba($color-primary-Very-dark-blackish-blue, 0.5);
+
+  @media screen and (max-width: 1000px) {
+    grid-column: 1 / 5;
+  }
+
+  &__card--1 {
+    background: $color-primary-Moderate-violet;
+    color: $color-primary-White;
+    position: relative;
+    z-index: 1;
+
+    @media screen and (min-width: 700px) {
+      grid-area: one;
+    }
+
+    &:after {
+      content: url(/img/bg-pattern-quotation.svg);
+      position: absolute;
+      top: 0;
+      right: 3rem;
+      z-index: -1;
+    }
+  }
+
+  &__card--2 {
+    background: $color-primary-Very-dark-grayish-blue;
+    color: $color-primary-White;
+
+    @media screen and (min-width: 700px) {
+      grid-area: two;
+    }
+
+    @media screen and (max-width: 799px) {
+      grid-column-end: 5;
+    }
+  }
+
+  &__card--3 {
+    background: $color-primary-White;
+    @media screen and (min-width: 700px) {
+      grid-area: three;
+    }
+
+    @media screen and (max-width: 799px) {
+      grid-column-end: 5;
+    }
+  }
+
+  &__card--4 {
+    background: $color-primary-White;
+    @media screen and (min-width: 700px) {
+      grid-area: four;
+    }
+  }
+
+  &__card--5 {
+    background: $color-primary-Very-dark-blackish-blue;
+    color: $color-primary-White;
+    @media screen and (min-width: 700px) {
+      grid-area: five;
+    }
+
+    @media screen and (max-width: 799px) {
+      grid-column-end: 5;
+    }
+  }
+
+  &__photo {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    display: block;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+  &__photo--border {
+    border: 3px solid $color-neutral-Light-gray;
+  }
+
+  &__photo--border-1 {
+    border: 3px solid $color-primary-Moderate-violet;
+  }
+
+  &__user {
+    display: flex;
+    align-items: center;
+  }
+
+  &__user--detail {
+    margin-top: 1rem;
+  }
+
+  &__user--name-gray {
+    color: $color-primary-Very-dark-blackish-blue;
+  }
+
+  &__user--verified {
+    color: $color-neutral-Light-gray;
+    font-weight: 600;
+  }
+
+  &__user--verified-blackish {
+    color: $color-primary-Very-dark-blackish-blue;
+    font-weight: 600;
+    opacity: 0.5;
+  }
+
+  &__text {
+    margin: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.4;
+    width: 97%;
+  }
+
+  &__text--sub {
+    margin: 0.5rem 1.5rem;
+    font-size: 1.2rem;
+    opacity: 0.9;
+  }
+}

@@ -45,4 +45,13 @@
     background: $color-primary-Very-dark-blackish-blue;
     color: $color-primary-White;
   }
+
+  &__photo {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    display: block;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
 }

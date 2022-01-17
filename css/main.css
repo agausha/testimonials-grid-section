@@ -72,6 +72,15 @@ body {
   color: white;
 }
 
+.card__photo {
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  display: block;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
+
 .container {
   background: #ecf2f8;
   margin: 4rem auto;

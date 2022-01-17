@@ -6,4 +6,13 @@
   margin: 4rem auto;
   max-width: 119rem;
   min-height: 100vh;
+
+  .testimonial {
+    height: 100%;
+    margin: 0 2rem;
+    margin-top: 17rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+  }
 }

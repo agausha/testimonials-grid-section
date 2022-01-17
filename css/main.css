@@ -181,4 +181,15 @@ body {
   max-width: 119rem;
   min-height: 100vh;
 }
+
+.container .testimonial {
+  height: 100%;
+  margin: 0 2rem;
+  margin-top: 17rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
 /*# sourceMappingURL=main.css.map */

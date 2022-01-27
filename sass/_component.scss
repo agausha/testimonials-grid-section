@@ -72,6 +72,11 @@
     margin-top: 1rem;
   }
 
+  &__user--name {
+    font-size: 1.5rem;
+    color: $color-neutral-Light-grayish-blue;
+  }
+
   &__user--name-gray {
     color: $color-primary-Very-dark-blackish-blue;
   }
